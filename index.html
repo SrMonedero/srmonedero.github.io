@@ -4,18 +4,45 @@
     <link href="https://fonts.googleapis.com/css?family=Nunito+Sans" rel="stylesheet">
     <style>
         body {
-            background-color: #ffa030;
+            background-color: #29313c;
+        }
+
+        .container {
+            margin-top: 200px;
         }
 
         p {
-            color: white;
-            position: relative;
-            top: 50%;
+            color: #eab47c;
             font-family: 'Nunito', sans-serif;
             font-size: 32px;
+        }
+
+        a {
+            color: #ff6027;
+        }
+
+        .button.button-primary {
+            background-color: #ff6027;
+            border-color: #ff6027;
+        }
+
+        .button.button-primary:hover {
+            background-color: #eab47c;
+            border-color: #eab47c;
         }
     </style>
 </head>
 <body>
-    <p>Hi, I am Quique</p>
+    <div class="container">
+        <div class="row">
+            <div class="eight column">
+                <p>Hi, I am Quique - freelance Android Developer based in <a target=blank href="https://www.google.es/maps/place/Barcelona">Barcelona</a>. I am part of <a target=blank href="http://www.theleftbit.com">The Left Bit</a>, I tweet <a target=blank href="https://twitter.com/srmonedero">here</a>, and sometimes I make <a target=blank href="https://srmonedero.itch.io">little games</a>. Check my <a target=blank href="http://resume.srmonedero.com">resume</a>.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="eight column">
+                <a class="button button-primary" href="mailto:quiquealvarezmonedero@gmail.com">Say hi!</a>
+            </div>
+        </div>
+    </div>
 </body>
