@@ -1,0 +1,64 @@
+body {
+    background-color: white;
+}
+.title {
+  font-family: 'Permanent Marker', serif;
+  margin-left: 20px;
+}
+.title:hover {
+    cursor:default;
+    user-select: none;
+}
+.char1:hover {
+    color: #ffc38a;
+}
+.char2:hover {
+    color: #ffae77;
+}
+.char3:hover {
+    color: #ff9864;
+}
+.char4:hover {
+    color: #ff8352;
+}
+.char5:hover {
+    color: #ff6e40;
+}
+.char6:hover {
+    color: #ff592e;
+}
+.char7:hover {
+    color: #f6421c;
+}
+.char8:hover {
+    color: #df2806;
+}
+.char9:hover {
+    color: #c80000;
+}
+.char10:hover {
+    color: #b10000;
+}
+ul {
+    list-style: none;
+}
+li {
+    margin-top: 8px;
+}
+a:link {
+    text-decoration: none;
+}
+a {
+    font-family: 'Helvetica', serif;
+    font-size: x-large;
+    color: black;
+}
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: black;
+        color: white;
+    }
+    a {
+        color: white;
+    }
+}
